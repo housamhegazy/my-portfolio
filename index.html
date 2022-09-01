@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+
+    <title> My Portfolio </title>
+</head>
+<body>
+    <div class="loading">
+        <span></span>
+    </div>
+    <section class="main-container">
+        <div class="toggle">
+            <i class="bi bi-list"></i>
+        </div>
+        <div class="theme">
+            <div class="gear">
+                <i class="bi bi-gear-fill"></i>
+            </div>
+            <ul class="colors">
+                <li class="active" data-color="aqua"></li>
+                <li data-color="chartreuse"></li>
+                <li data-color="crimson"></li>
+                <li data-color="darkgreen"></li>
+                <li data-color="deeppink"></li>
+            </ul>
+            <div class="dark">
+                <i class="bi bi-moon-fill"></i>
+            </div>
+        </div>
+        <div class="aside-container">
+            <div class="aside">
+                <i class="bi bi-x-circle"></i>
+                <div class="header">
+                    <div class="logo">
+                        <img src="images/pic (1).jpg" alt="">
+                    </div>
+                </div>
+                <div class="social-media">
+                    <div class="wrapper">
+                        <a href="https://www.facebook.com/housam.hegazy1/" class="icon facebook" target="_blank">
+                            <div class="tooltip">Facebook</div>
+                            <span><i class="fab fa-facebook-f"></i></span>
+                        </a>
+                        <a href="https://twitter.com/HegazyHousam" class="icon twitter" target="_blank">
+                            <div class="tooltip">Twitter</div>
+                            <span><i class="fab fa-twitter"></i></span>
+                        </a>
+                        <a href="https://www.instagram.com/housamhegazy2/" class="icon instagram" target="_blank">
+                            <div class="tooltip">Instagram</div>
+                            <span><i class="fab fa-instagram"></i></span>
+                        </a>
+                        <a href="https://github.com/housamhegazy" class="icon github" target="_blank">
+                            <div class="tooltip">Github</div>
+                            <span><i class="fab fa-github"></i></span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/housam-hegazy-181369177/" class="icon linkedin" target="_blank">
+                            <div class="tooltip">Linkedin</div>
+                            <span><i class="fab fa-linkedin"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <ul class="nav">
+                    <a class = "home active" href="#home"><li><i class="bi bi-house-door-fill"></i>Home</li></a> 
+                    <a href="#about" class = "about"><li><i class="bi bi-file-person-fill"></i>About</li></a> 
+                    <a href="#services" class = "services"><li><i class="bi bi-menu-button-wide"></i>services</li></a>
+                    <a href="#portfolio" class = "portfolio"><li><i class="bi bi-briefcase-fill"></i>Portfolio</li></a>
+                    <a href="#contact" class = "contact"><li><i class="bi bi-wechat"></i>Contact</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="main-content">
+            <!-- start home section  -->
+            <div class="box" id="home">
+                <div class="home">
+                    <div class="info">
+                        <h1>hello my name is <span>Housam Hegazy</span></h1>
+                        <h2>iam <span>a web developer</span></h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sequi commodi iusto sapiente minima porro
+                            dolorem numquam quia!
+                        </p>
+                        <a href="#about">More about me</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/pic (2).jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- start about section  -->
+            <div class="box " id="about">
+                <div class="container">
+                    <div class="header">
+                        <h1>About me</h1>
+                        <h3> iam Housam Hegazy and <span>web developer</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, alias odit totam, quia veritatis perferendis earum
+                            iste minus error expedita non molestias ipsum vitae temporibus obcaecati consequatur doloribus eveniet
+                            accusantium!</p>
+                    </div>
+                    <div class="about-info-container">
+                        <div class="about-info">
+                            <div class="boxes">
+                                <ul class="box">
+                                    <li>Birthday : <span>27 / 04 / 1991</span></li>
+                                    <li>Website : <span> www.housam.com</span></li>
+                                    <li>Degree : <span> Bachelor of Science</span></li>
+                                    <li> city : <span> Jizan </span></li>
+                                </ul>
+                                <ul class="box">
+                                    <li>Age : <span class="age"></span></li>
+                                    <li>E-mail : <span> geohousam@gmail.com</span></li>
+                                    <li>Phone : <span> +966558412127</span></li>
+                                    <li> Freelance : <span> Available </span></li>
+                                </ul>
+                            </div>
+                            <div class="my-cv">
+                                <a href="files/my cv.pdf" download="Housam Hegazy CV"><span class="download">&DownArrowBar;</span>Download CV </a>
+                                <a class="Hire-Me"> Hire Me </a>
+                            </div>
+                        </div>
+                        <div class="progress">
+                            <div class="html">
+                                <span>Html</span>
+                                <div class="html percentage">
+                                    <span class="number">95%</span>
+                                    <span data-progress="95%" class="level"></span>
+                                </div>
+                            </div>
+                            <div class="css">
+                                <span>CSS</span>
+                                <div class="css percentage">
+                                    <span class="number">75%</span>
+                                    <span data-progress="75%" class="level"></span>
+                                </div>
+                            </div>
+                            <div class="javascript">
+                                <span>Javascript</span>
+                                <div class="javascript percentage">
+                                    <span class="number">85%</span>
+                                    <span data-progress="85%" class="level"></span>
+                                </div>
+                            </div>
+                            <div class="react">
+                                <span>React</span>
+                                <div class="react percentage">
+                                    <span class="number">65%</span>
+                                    <span data-progress="65%" class="level"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="education-experience">
+                        <div class="box">
+                            <h2>Education</h2>
+                            <div class="details">
+                                <div class="details-box">
+                                    <div class="date">
+                                        <i class="bi bi-calendar3"></i>
+                                        <span>2015 - 2017</span>
+                                    </div>
+                                    <h3>master in computer science</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error cupiditate amet perferendis, magni iste vitae est illo debitis totam nulla consequuntur, voluptas, molestias explicabo impedit obcaecati quae culpa repudiandae labore!</p>
+                                </div>
+                                <div class="details-box">
+                                    <div class="date">
+                                        <i class="bi bi-calendar3"></i>
+                                        <span>2015 - 2017</span>
+                                    </div>
+                                    <h3>master in computer science</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error cupiditate amet perferendis, magni iste vitae est illo debitis totam nulla consequuntur, voluptas, molestias explicabo impedit obcaecati quae culpa repudiandae labore!</p>
+                                </div>
+                                <div class="details-box">
+                                    <div class="date">
+                                        <i class="bi bi-calendar3"></i>
+                                        <span>2015 - 2017</span>
+                                    </div>
+                                    <h3>master in computer science</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error cupiditate amet perferendis, magni iste vitae est illo debitis totam nulla consequuntur, voluptas, molestias explicabo impedit obcaecati quae culpa repudiandae labore!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <h2>Experiences</h2>
+                            <div class="details">
+                                <div class="details-box">
+                                    <div class="date">
+                                        <i class="bi bi-calendar3"></i>
+                                        <span>2015 - 2017</span>
+                                    </div>
+                                    <h3>master in computer science</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error cupiditate amet perferendis, magni iste vitae est illo debitis totam nulla consequuntur, voluptas, molestias explicabo impedit obcaecati quae culpa repudiandae labore!</p>
+                                </div>
+                                <div class="details-box">
+                                    <div class="date">
+                                        <i class="bi bi-calendar3"></i>
+                                        <span>2015 - 2017</span>
+                                    </div>
+                                    <h3>master in computer science</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error cupiditate amet perferendis, magni iste vitae est illo debitis totam nulla consequuntur, voluptas, molestias explicabo impedit obcaecati quae culpa repudiandae labore!</p>
+                                </div>
+                                <div class="details-box">
+                                    <div class="date">
+                                        <i class="bi bi-calendar3"></i>
+                                        <span>2015 - 2017</span>
+                                    </div>
+                                    <h3>master in computer science</h3>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error cupiditate amet perferendis, magni iste vitae est illo debitis totam nulla consequuntur, voluptas, molestias explicabo impedit obcaecati quae culpa repudiandae labore!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- start services section  -->
+            <div class="box services " id="services">
+                <div class="container">
+                    <h1>services</h1>
+                    <div class="services-boxes">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="bi bi-phone-fill"></i>
+                            </div>
+                            <h3>web design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ut quis neque optio obcaecati </p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3>web design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ut quis neque optio obcaecati </p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="bi bi-search"></i>
+                            </div>
+                            <h3>web design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ut quis neque optio obcaecati </p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="bi bi-palette-fill"></i>
+                            </div>
+                            <h3>web design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ut quis neque optio obcaecati </p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="bi bi-building"></i>
+                            </div>
+                            <h3>web design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ut quis neque optio obcaecati </p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="bi bi-router-fill"></i>
+                            </div>
+                            <h3>web design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ut quis neque optio obcaecati </p>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <!-- start portfolio section  -->
+            <div class="box portfolio" id="portfolio">
+                <div class="container">
+                    <h1>portfolio</h1>
+                    <h2>my last projects:</h2>
+                    <div class="prtfolio-content">
+                        <div class="image">
+                            <img src="images/portfolio-1.jpg" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="images/portfolio-2.jpg" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="images/portfolio-3.jpg" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="images/portfolio-4.jpg" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="images/portfolio-5.jpg" alt="">
+                        </div>
+                        <div class="image">
+                            <img src="images/portfolio-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- start contact section  -->
+            <div class="box contact " id="contact">
+                <div class="container">
+                    <h1>contact Me</h1>
+                    <div class="question">
+                        <h2>have you any questions ?</h2>
+                        <h4>iam at your service</h4>
+                    </div>
+                    <div class="contact-info">
+                        <div class="box">
+                            <div class="icon">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <div>call us on</div>
+                            <p>+966 558412127</p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div>Office</div>
+                            <p>24 St Riyadh - KSA</p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <div>E-mail</div>
+                            <p>geohousam@gmail.com </p>
+                        </div>
+                        <div class="box">
+                            <div class="icon">
+                                <i class="bi bi-browser-chrome"></i>
+                            </div>
+                            <div>Website</div>
+                            <p>H-designer.com</p>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <h2>Send me an email</h2>
+                        <h4>iam very responsive to massege</h4>
+                    </div>
+                    <form action="https://formspree.io/f/xjvzkael" method="POST">
+                        <div class="name-email">
+                            <input type="text" name="name" id="name" placeholder="name" required>
+                            <input type="email" name="email" id="email" placeholder="email" required>
+                        </div>
+                        <input type="text" name="subject" id="subject" placeholder="subject">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="massege" required></textarea>
+                        <input type="submit" value="Send Message">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="src/main.js"></script>
+</body>
+</html>
