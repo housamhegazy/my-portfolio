@@ -191,7 +191,7 @@ ul{
     opacity:1
 }
 .main-container .theme .colors li:first-child{
-    background-color: aqua;
+    background-color: deeppink;
 }
 .main-container .theme .colors li:nth-child(2){
     background-color: chartreuse;
@@ -203,7 +203,7 @@ ul{
     background-color: darkgreen;
 }
 .main-container .theme .colors li:last-child{
-    background-color: deeppink;
+    background-color:blue;
 }
 
 .aside-container{
