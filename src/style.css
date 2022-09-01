@@ -664,9 +664,16 @@ ul{
     -o-border-radius: 10px;
     cursor: pointer;
 }
+
 .about-info-container .about-info .my-cv a .download{
     padding:0 6px;
     font-size: 22px;
+}
+@media(max-width:767px) {
+    .about-info-container .about-info .my-cv a {
+        padding: 5px;
+        margin: 0 10px;
+    }
 }
 .about-info-container .progress{
     flex:1;

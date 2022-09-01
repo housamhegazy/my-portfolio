@@ -130,31 +130,31 @@ let servicesBoxes = document.querySelectorAll(".services .services-boxes .box");
 console.log(servicesBoxes);
 
 window.addEventListener("scroll", () => {
-    scrollBoxes(AboutBoxes,100);
-    scrollBoxes(servicesBoxes,800);
+  scrollBoxes(AboutBoxes, 200);
+  scrollBoxes(servicesBoxes, 800);
 });
 
-function scrollBoxes(boxes,distance){
-    boxes.forEach((box) => {
-      let boxTop = box.getBoundingClientRect().top;
-      let boxVisible = distance;
-      let scrollHeight = window.pageYOffset;
-      if (boxTop < scrollHeight - boxVisible) {
-        box.style.transform = "TranslateY(0)";
-        box.style.opacity = 1;
-      } else {
-        box.style.transform = "TranslateY(200px)";
-        box.style.opacity = 0;
-      }
-    });
+function scrollBoxes(boxes, distance) {
+  boxes.forEach((box) => {
+    let boxTop = box.getBoundingClientRect().top;
+    let boxVisible = distance;
+    let scrollHeight = window.pageYOffset;
+    if (boxTop < scrollHeight - boxVisible) {
+      box.style.transform = "TranslateY(0)";
+      box.style.opacity = 1;
+    } else {
+      box.style.transform = "TranslateY(200px)";
+      box.style.opacity = 0;
+    }
+  });
 }
 // active menu li with scroll
 window.addEventListener("scroll", () => {
   var current = "";
   sections.forEach((section) => {
     const sectionTop = section.offsetTop;
-    const sectionHeight = section.clientHeight
-    if (pageYOffset >= (sectionTop - sectionHeight/3)) {
+    const sectionHeight = section.clientHeight;
+    if (pageYOffset >= sectionTop - sectionHeight / 3) {
       current = section.getAttribute("id");
     }
   });
