@@ -1,49 +1,51 @@
-
-@media(max-width:991px){
-    .toggle{
-    right:0px;
+@media (max-width: 991px) {
+  .toggle {
+    right: 0px;
+  }
 }
-}
-@media(max-width:991px){
-    .aside{
-        right:-100%;
-}
-    .aside.active{
-        right:0;
-        
-    }
-    .aside .bi-x-circle {
-        right:10px;
-}
+@media (max-width: 991px) {
+  .aside {
+    right: -100%;
+  }
+  .aside.active {
+    right: 0;
+  }
+  .aside .bi-x-circle {
+    right: 10px;
+  }
 }
 
-.aside .nav{
-    text-align: right;
+.aside .nav {
+  text-align: right;
 }
-.main-container .main-content .home .info a{
-    margin:10px 0;
-    display:inline-block;
-
+.main-container .main-content .home .info a {
+  margin: 10px 0;
+  display: inline-block;
 }
 
 .main-container .theme {
-    left:-200px;
-    right:auto
+  left: -200px;
+  right: auto;
 }
 .main-container .theme.open {
-    right: auto;
+  right: auto;
   left: 0;
 }
-.main-container .theme .gear{
-    right:-20px;
+.main-container .theme .gear {
+  right: -20px;
 }
 .container h1::before,
-.container h1::after{
-    left:auto;
-    right:0;
+.container h1::after {
+  left: auto;
+  right: 0;
 }
 
-.about-info-container .progress .percentage .number{
-    left:0;
-    right:auto
+.about-info-container .progress .percentage .number {
+  left: 0;
+  right: auto;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  text-align: right;
 }
