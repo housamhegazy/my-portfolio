@@ -480,7 +480,7 @@ ul {
 .main-container .main-content .box .home {
   padding: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
 }
@@ -903,11 +903,11 @@ ul {
 }
 
 .portfolio .prtfolio-content .image img:hover {
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
 }
 /* start contact  */
 .contact .container {
