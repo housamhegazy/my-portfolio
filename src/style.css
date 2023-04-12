@@ -916,14 +916,13 @@ ul {
 .portfolio .prtfolio-content .image:hover .overlay{
   height:100%;
 }
-.portfolio .prtfolio-content .image .overlay a{
-  color:white;
-  text-decoration: none;
-  transition: .3s;
+.portfolio .prtfolio-content .image .overlay .bi-link-45deg{
+  color: var(--header-color);
+  cursor:pointer;
+  font-size: 22px;
+  margin-top: 10px;
 }
-.portfolio .prtfolio-content .image .overlay a:hover{
-  color:yellow;
-}
+
 .portfolio .prtfolio-content .image img {
   height:100%;
   width: 100%;
