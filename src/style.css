@@ -877,6 +877,8 @@ ul {
 .portfolio .prtfolio-content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
 }
 @media (max-width: 767px) {
@@ -885,9 +887,9 @@ ul {
   }
 }
 .portfolio .prtfolio-content .image {
+  height:150px;
   position:relative;
   border-radius: 10px;
-  /* overflow: hidden; */
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
